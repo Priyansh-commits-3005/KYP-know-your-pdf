@@ -1,0 +1,11 @@
+flask
+flask-cors
+PyMuPDF
+openai
+requests
+python-dotenv
+langchain
+langchain_community
+langchain_openai
+faiss-cpu
+
