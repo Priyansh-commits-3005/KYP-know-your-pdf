@@ -3,7 +3,7 @@ FROM python:3.9-slim
 
 # Set the working directory in the container
 WORKDIR /app
-COPY PDF-Pilot_v1/src/server.py PDF-Pilot_v1/src/HandoutAssistant.py requirements.txt .env ./
+COPY PDF-Pilot_v1/src/server.py PDF-Pilot_v1/src/HandoutAssistant.py requirements.txt ./
 
 # Install Python dependencies
 RUN pip install --no-cache-dir -r requirements.txt
